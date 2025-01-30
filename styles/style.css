@@ -1,112 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+body{
+  font-family: "Fira Sans", serif;
+  background-color: rgba(245, 245, 245, 1)
+}
   
 
 /* global website */
@@ -175,14 +72,13 @@ border-radius: 20px;
 }
 
 .hero-para{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
     padding-bottom: 16px;
 }
 
-.hero-title{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.hero-title{ 
     font-weight: 700;
     font-size: 56px;
     color:rgba(14, 14, 14, 1);
@@ -191,7 +87,6 @@ border-radius: 20px;
 
 
 .hero-button{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     font-size: 18px;
     color:rgba(255, 255, 255, 1);
@@ -212,14 +107,13 @@ padding: 20px 30px;
 
 
  .section2-title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 40px;
     padding-bottom: 24px;
  }
 
 
- .section2-description{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ .section2-description{
     font-weight: 500;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
@@ -260,7 +154,7 @@ padding: 20px 30px;
  .section2-img{
     margin-bottom: 10px;
  }
-   .section2-box-title{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   .section2-box-title{
     font-weight: 700;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8); margin-bottom: 10px;
@@ -268,7 +162,7 @@ padding: 20px 30px;
 
    }
 
-   .section2-box-description{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   .section2-box-description{
     font-weight: 500;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
@@ -280,7 +174,6 @@ padding: 20px 30px;
 
 color: white;
 font-weight: 600;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 16px;
 border-radius: 5px;
 padding: 8px 10px;
@@ -293,7 +186,6 @@ padding: 8px 10px;
 .box-btn2{background-color: rgba(9, 161, 92, 1);
     color: white;
 font-weight: 600;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 16px;
 border-radius: 5px;
 padding: 8px 10px;
@@ -303,7 +195,6 @@ padding: 8px 10px;
 background-color: rgba(255, 194, 57, 1);
 color: white;
 font-weight: 600;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 16px;
 border-radius: 5px;
 padding: 8px 10px;
@@ -312,3 +203,101 @@ padding: 8px 10px;
 
 
 
+
+/* recent news satallite */
+  
+.section3{ margin: 80px 160px;
+background-color: rgba(245, 245, 245, 1);
+
+}
+
+.section3-title{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section3-description{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 30px;
+}
+
+.section3-box1-title{ font-size: 16px;
+  font-weight: 700;
+font-size: 32px; padding-bottom: 20px;
+color:rgba(14, 14, 14, 0.8) ;
+}
+
+
+.section3-box1-description{
+  font-size: 16px ;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: left;
+  
+  color: rgba(14, 14, 14, 0.7);
+}
+
+
+.section3-btn
+{
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 106, 80, 1);
+  padding: 10px 20px;
+border: none;
+border-radius: 10px;
+}
+
+.div1{
+  display: flex;
+  padding: 48px;
+  width: 1000px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+
+  align-items: stretch;
+}
+
+.div1-1{
+margin-right: 32px;
+ 
+}
+
+.div1-2
+{
+  padding-bottom: 10px;
+}
+
+
+.div2{
+  display: flex;
+  padding: 48px;
+  width: 1000px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+
+  align-items: stretch;
+
+  margin-top: 24px;
+}
+
+.div3{
+  display: flex;
+  padding: 48px;
+  width: 1000px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+
+  align-items: stretch;
+
+  margin-top: 24px;
+  
+}
