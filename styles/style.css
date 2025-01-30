@@ -394,13 +394,79 @@ margin-right: 32px;
   text-align: center;
 }
 .btn8{
-   color: white;
-   background-color: rgba(0, 106, 80, 1);
-   font-size: 18px;
-   font-weight: 600;
-   text-align: center;
-   padding: 17px 34px;
-   border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 17px 34px;
+  border-radius: 10px;
 }
 
 
+
+
+/* newsletter section style */
+
+
+.newsletter{
+  width: 1200px;
+  height: 350px;
+ background-color: rgba(198, 228, 214, 1);
+margin: 80px 160px;
+border-radius: 20px;
+}
+
+.newsletter-title{ font-weight: 700;
+font-size: 40px;
+color: black;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 16px;
+}
+
+
+.newsletter-description{ font-size: 16px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  margin: 0px 250px;
+
+}
+
+.input5{ margin-right: 23px;
+  margin-left: 230px;
+  width: 600px;
+  height: 50px;
+  margin-top: 24px;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 500;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  
+}
+
+
+.btn9{color: white;
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 27px;
+  border-bottom-right-radius: 8px;
+border-top-right-radius: 8px ;
+  margin-left: -23px;
+
+}
+
+.newsletter-description2{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  margin: 30px 250px;
+  
+}
